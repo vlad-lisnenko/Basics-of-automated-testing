@@ -1,0 +1,573 @@
+{
+	"id": "1cff998b-f296-41c2-a858-7cdcc24efd64",
+	"name": "Лабораторна робота #1",
+	"timestamp": "2022-11-16T17:03:34.484Z",
+	"collection_id": "0-dd2e6246-071d-4240-83ef-d51e9ad81d5a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 29,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "ac3d9818-3e39-4800-951b-033759afb227",
+			"name": "Request_1",
+			"url": "https://postman-echo.com/get?id=12&type=admin",
+			"time": 625,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				625
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": false
+				}
+			]
+		},
+		{
+			"id": "1b008936-3796-4483-add5-d75cd4152ecc",
+			"name": "Request_2",
+			"url": "https://postman-echo.com/get?id=12&type=admin",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "1b91b7a8-5939-45f0-88c9-d1d9905ab06e",
+			"name": "Request_3",
+			"url": "https://postman-echo.com/get?userId=12",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "d248f38b-8ace-4379-9c66-e0ae519c97c7",
+			"name": "Request_4",
+			"url": "https://postman-echo.com/get?userId=15",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "32aa0d56-5aa2-4cf4-9436-49738ae669cd",
+			"name": "Request_5",
+			"url": "https://postman-echo.com/get?Userid=413&type=VIP&role=admin",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "ecfa7f88-2580-4920-a647-82b3f62c7dbd",
+			"name": "Request_6",
+			"url": "https://postman-echo.com/post",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "b3ec3ba1-a677-413d-8a7b-ee9c2f02a02a",
+			"name": "Request_7",
+			"url": "https://postman-echo.com/post",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "3f231521-a79c-4099-b3aa-03e1246c7518",
+			"name": "Request_8",
+			"url": "https://postman-echo.com/post",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "26790c18-1334-4661-b947-aef63b0752a9",
+			"name": "Request_9",
+			"url": "https://postman-echo.com/post",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "60211afc-8dca-470b-b5fd-29fe0ccc17b5",
+			"name": "Request_10",
+			"url": "https://postman-echo.com/put",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "8c25ba08-ec39-4f16-9c56-cdb358a64016",
+			"name": "Request_11",
+			"url": "https://postman-echo.com/put",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "2b7b8bf6-b17a-4f32-bb9c-e01328108352",
+			"name": "Request_12",
+			"url": "https://postman-echo.com/delete?id=21",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "2564ff2b-596d-4b8a-bad1-adc43c0182f7",
+			"name": "Request_13",
+			"url": "https://postman-echo.com/delete?id=45",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "37d62cff-3a86-45f6-bd3f-07c5edb2a22c",
+			"name": "Request_14",
+			"url": "https://postman-echo.com/get?name=vlad&age=14&sername=Zabora",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "b1f438b9-0e17-4e5d-8aca-c74706abb23c",
+			"name": "Request_15",
+			"url": "https://postman-echo.com/put",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2603,
+	"collection": {
+		"requests": [
+			{
+				"id": "ac3d9818-3e39-4800-951b-033759afb227",
+				"method": "GET"
+			},
+			{
+				"id": "1b008936-3796-4483-add5-d75cd4152ecc",
+				"method": "GET"
+			},
+			{
+				"id": "1b91b7a8-5939-45f0-88c9-d1d9905ab06e",
+				"method": "GET"
+			},
+			{
+				"id": "d248f38b-8ace-4379-9c66-e0ae519c97c7",
+				"method": "GET"
+			},
+			{
+				"id": "32aa0d56-5aa2-4cf4-9436-49738ae669cd",
+				"method": "GET"
+			},
+			{
+				"id": "ecfa7f88-2580-4920-a647-82b3f62c7dbd",
+				"method": "POST"
+			},
+			{
+				"id": "b3ec3ba1-a677-413d-8a7b-ee9c2f02a02a",
+				"method": "POST"
+			},
+			{
+				"id": "3f231521-a79c-4099-b3aa-03e1246c7518",
+				"method": "POST"
+			},
+			{
+				"id": "26790c18-1334-4661-b947-aef63b0752a9",
+				"method": "POST"
+			},
+			{
+				"id": "60211afc-8dca-470b-b5fd-29fe0ccc17b5",
+				"method": "PUT"
+			},
+			{
+				"id": "8c25ba08-ec39-4f16-9c56-cdb358a64016",
+				"method": "PUT"
+			},
+			{
+				"id": "2b7b8bf6-b17a-4f32-bb9c-e01328108352",
+				"method": "DELETE"
+			},
+			{
+				"id": "2564ff2b-596d-4b8a-bad1-adc43c0182f7",
+				"method": "DELETE"
+			},
+			{
+				"id": "37d62cff-3a86-45f6-bd3f-07c5edb2a22c",
+				"method": "GET"
+			},
+			{
+				"id": "b1f438b9-0e17-4e5d-8aca-c74706abb23c",
+				"method": "PUT"
+			}
+		]
+	}
+}
